@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+/* geen marges en geen witrumte */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 1em;
+}
+
+.container {
+	width: 1080px;
+	margin: auto;
+}
+
+header img{
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+
+footer {
+	border-top: 2px solid #212433;
+	padding-top: 1em;
+}
+
+footer img{
+	height: 75px;
+	margin-right: 3em;
+	
+}
+
+nav img{
+	float: left;
+	width: 35%;
+	padding-top: 0.5em;
+}
+
+nav ul{
+	float: right;
+	width: 60%;
+}
+
+ul {
+	list-style-type: none;
+	text-align: right;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+li{
+	display: inline-block;
+}
+
+.menu1 li {
+	background-color: #212433;
+	color: white;
+	padding: 0.2em 2em;
+	margin-left: 1.5em;
+}
+
+.menu2 li {
+	color: #212433;
+	margin-left: 1em;
+	padding-left: 1em;
+	border-left: 1px solid #212433;
+}
+
+.developT {
+	background-color: #212433;
+	color:white;
+	clear:both;
+}
+
+.develop img{
+	width: 50%;
+	float: left;
+}
+
+.developT:hover {
+	background-color: darkred;
+}
+
+.developT h1 {
+	padding-left: 0.3em;
+	padding-top: 0.2em;
+	font-size: 3em;
+	line-height: 1.5em;
+}
+
+.developT p {
+	line-height: 2em;
+	padding: 1em;
+}
+
+.platform {
+	clear:both;
+	text-align: center;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	font-size: 2.5em;
+}
